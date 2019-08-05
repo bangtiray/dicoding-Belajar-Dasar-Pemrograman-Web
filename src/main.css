@@ -1,0 +1,154 @@
+/* css for submission bangtiray 03-08-2019 */
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+
+
+body {
+    font-size: 1em;
+    line-height: 1.66;
+    -webkit-text-size-adjust: none;
+}
+
+/* setting google font */
+body,
+button {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* belajar typography */
+h1 {
+    font-size: 2.20em;
+    margin: 0.8em 0 0.4em 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+ }
+h2 {
+    font-size: 1.50em;
+    margin: 1.0em 0 0.6em 0;
+    font-weight: 800;
+}
+
+
+p {
+    margin: 1.2em 0
+}
+
+.header {
+    z-index: 200;
+    margin: 0 auto;
+    padding: 2em;
+    width: 100%;
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+}
+
+.header h1 {
+    margin: .9em 0 0 0;
+    padding: 0;
+    font-weight: 300;
+    font-size: 1.4em;
+    line-height: 1.4;
+    -webkit-backface-visibility: hidden;
+}
+
+.header img {
+    max-height: 250px;
+    border-radius: 50%;
+}
+
+.header p {
+    font-size: 1em;
+    margin: .1em 0 .6em;
+    display: inline-block;
+    font-style: italic;
+    padding: 6px 10px;
+    background: rebeccapurple;
+    color: #345;
+    color: rgba(0, 0, 0, .7);
+    border-radius: 4px;
+    line-height: 1;
+}
+
+
+.navigasi {
+    position: relative;
+    display: block;
+    margin: .9em auto 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+
+.navigasi li {
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.navigasi li a {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    color: #D0DADC;
+    letter-spacing: -2px;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 4rem;
+    font-size: 2.7em;
+}
+
+.navigasi li a:hover {
+    color: #BECACC;
+}
+
+.navigasi li a:focus,
+.navigasi a,
+.navigasi li.current_page_item a {
+    color: #345;
+}
+
+.diri {
+    text-align: center;
+    padding: 0 0 1em 0;
+}
+
+
+.diri h2 {
+    font-size: 2.0em;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.diri h3 {
+    font-size: 1.0em;
+    font-weight: 100;
+    line-height: 1.4;
+    color: #345;
+}
+
+.diri h2 strong {
+    letter-spacing: -1px;
+    font-weight: 800;
+    color: #345;
+}
+.imgMamah{
+    max-height: 350px;  
+}
+
+@media screen and (min-width: 550px) {
+    .header img {
+        max-height: 150px;
+        border-radius: 50%;
+    }
+    
+    .imgMamah{
+        max-height: 150px;  
+
+    }
+ }
